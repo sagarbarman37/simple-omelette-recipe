@@ -1,0 +1,275 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family:  "Inria Serif", serif;
+}
+body{
+  background-color: #F3E5D8;
+  
+}
+
+.hero-setion{
+  background-color: #fff;
+  padding: 60px 30px 30px 30px;
+  max-width: 900px;
+ 
+}
+
+ .omelette-image img {
+   max-width: 95%;
+   box-shadow: 2px 2px 10px  #000;
+   border-radius: 8px;
+   display: block;
+   margin-inline: auto;
+ }
+ 
+ .title h1 {
+   font-size: 6rem;
+   text-transform: capitalize;
+  font-style: italic;
+  font-weight: 600;
+  margin: 30px 0 30px 0;
+  text-shadow: 1px 1px 1px #fff;
+  padding-left: 30px;
+ }
+ .title p {
+   font-size: 1.7rem;
+   margin-bottom: 4rem;
+   padding-left: 30px;
+ }
+ 
+ /*--timing start--*/
+ 
+ .timing{
+   max-width: 100%;
+   max-height: 400px;
+   background-color: rgba(229, 141, 190, 0.15);
+   border-radius: 8px;
+   margin-bottom: 3rem;
+   padding: 10px 10px 10px 10px;
+ }
+ .timing h3{
+   font-size: 4rem;
+   margin: 10px 30px 0 30px;
+   font-weight: bolder;
+   color: #E2A9C8;
+   text-shadow: 1px 1px 1px #000;
+ }
+ .timing li {
+   padding-left: 40px;
+   list-style: inside;
+   font-size: 3rem;
+   margin: 10px 10px;
+ }
+ 
+ .li::marker{
+   color: #B66E96;
+ }
+ .timing .time{
+   font-weight: bolder;
+}
+
+/*--ingredients start--*/
+
+
+.Ingredients{
+  margin: 10px 30px 0 0px;
+  
+}
+.Ingredients h3{
+  font-size: 4rem;
+  font-weight: bolder;
+  color: #8B7168;
+  text-shadow: 1px 1px 1px #000;
+  padding-left:30px ;
+}
+
+.Ingredients ul {
+  padding-left:80px;
+  font-size: 2rem;
+  margin: 10px 10px;
+}
+
+.Ingredients li::marker{
+  color: #8B7168;
+}
+/*--ingredients end--*/
+.horizontal-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 40px 0 30px 0;  
+  }
+.line{
+  height: 2px;
+  max-width: 400px;
+  width: 400px;
+  background-color: black;
+}
+.cercle{
+  height: 4px;
+  width: 4px;
+  border-radius: 50%;
+  background-color: black;
+  flex-shrink: 0;
+}
+
+/*--instructions start--*/
+
+
+.instructions{
+  padding: 10px;
+}
+
+.instructions h3{
+  font-size: 4rem;
+  font-weight: bolder;
+  color: #8B7168;
+  text-shadow: 1px 1px 1px #000;
+  padding-left: 30px;
+}
+
+.instructions ol {
+  padding-left:80px ;
+  font-size: 2rem;
+margin: 10px 10px;
+}
+
+.instructions li::marker{
+  color: #8B7168;
+}
+
+.number .ol{
+  font-weight: bolder;
+}
+/*--instructions end--*/
+
+.horizontal-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 40px 0 30px 0;  
+  }
+.line{
+  max-height: 2px;
+  max-width: 400px;
+  background-color: black;
+}
+.cercle{
+  height: 4px;
+  width: 4px;
+  border-radius: 50%;
+  background-color: black;
+  flex-shrink: 0;
+}
+
+/*--Nutrition --*/
+
+.nutrition{
+  margin-bottom: 80px;
+}
+.nutrition h3{
+  font-size: 4rem;
+  font-weight: bolder;
+  color: #8B7168;
+  text-shadow: 1px 1px 1px #000;
+  padding-left: 30px;
+  margin: 10px 0 20px 0;
+}
+
+.nutrition p{
+  font-size: 1.7rem;
+  margin-bottom: 4rem;
+  padding-left: 30px;
+}
+
+.nutrition table{
+  width: 100%;
+  height: 400px;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.nutrition td{
+  
+  border-bottom: 2px solid #C1B177;
+  
+  text-align: center;
+  vertical-align: bottom;
+  padding-bottom: 16px;
+}
+.name{
+  display: block;
+  font-size: 10px;
+  text-align: right;
+  padding: 10px;
+}
+
+@media (max-width: 480px) {
+  .hero-setion{
+    padding: 0;
+    margin-top: 0px;
+    
+    
+  }
+  
+  .omelette-image img {
+    max-width: 100%;
+    box-shadow: none;
+    margin: 0px;
+    border-radius: 0px;
+  }
+  
+  .title h1 {
+    font-size: 2.5rem;
+    padding: 16px 16px 10px 24px;
+    margin-top: -16px;
+    margin-bottom: -16px;
+  }
+  .nutrition p,
+  .title p{
+    font-size: 1rem;
+    padding: 16px 16px 10px 24px;
+  }
+  
+  .timing {
+    max-width: 100%;
+    max-height: 400px;
+    margin: -48px 16px 0 16px;
+  }
+  .nutrition h3,
+  .instructions h3,
+  .Ingredients h3,
+  .timing h3{
+    font-size: 1.5rem;
+    margin-left: 10px;
+  }
+  .instructions ol,
+  .Ingredients ul,
+  .timing li {
+    font-size: 1rem;
+    margin-left: 5px;
+  } 
+  .nutrition table{
+    width: 100%;
+    height: 0px;
+    font-size: 1rem;
+   margin-top: -3rem;
+   padding: 16px;
+   
+    
+  }
+  .nutrition td{
+    border-bottom: 1px solid #C1B177;
+    vertical-align: bottom;
+  }
+  .nutrition p{
+    margin-top: -20px;
+  }
+  .line{
+    max-height: 1px;
+    
+  }
+
+}
